@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Insang Wab Jo
+name: Insang Jo
 
 # Short bio or description (displayed in the header)
-description: blog!
+description: 뉴비뉴비뉴비 ㅠㅡㅠ
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/25149890?v=4&s=460
@@ -19,14 +19,14 @@ avatar: https://avatars1.githubusercontent.com/u/25149890?v=4&s=460
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: cistkd@nate.com
   flickr:
-  github: barryclark/jekyll-now
+  github: insangwabcho
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
