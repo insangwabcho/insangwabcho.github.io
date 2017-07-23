@@ -13,11 +13,17 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script src="https://code.jqeury.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(function(){
+        alert("hello");
+      }
+    </script>
   </head>
 
   <body>
 
-  <!-- Facebook Login -->
+  <!-- Facebook Login Script-->
   <script>
     window.fbAsyncInit = function() {
       FB.init({
@@ -36,6 +42,10 @@
        js.src = "//connect.facebook.net/en_US/sdk.js";
        fjs.parentNode.insertBefore(js, fjs);
      }(document, 'script', 'facebook-jssdk'));
+
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
   </script>
 
     <div class="wrapper-masthead">
