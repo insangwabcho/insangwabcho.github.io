@@ -51,6 +51,8 @@ baseurl:
 
 jquery: "https://code.jquery.com/jquery-3.2.1.min.js"
 
+fbComment: "<div class='fb-comments' data-href='https://insangwabcho.github.io' data-width='600' data-numposts='4'></div>"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
